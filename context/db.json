@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "octocat",
+            "repos": 8,
+            "followers": 3965,
+            "following": 9,
+            "location": "San Francisco",
+            "twitter_username": "Not Available",
+            "company": "GitHub"
+           
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+body, html, #root {
+    margin: 10;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+
+}
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-results {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Light mode theme */
+.light {
+    background-color: #F6F8FF;
+    color: #4B6A9B;
+}
+
+.dark {
+    background-color: #141D2F;
+    color: #FFFFFF;
+}
+.dark button {
+    background-color: #0079FF;
+    color: #FFFFFF;
+}
+
+.dark .right-container {
+    background-color: #1E2A47;
+    color: #FFFFFF;
+}
+
+.dark .left-container {
+    background-color: #1E2A47;
+}
+
+.dark .right-container .user-info {
+    background-color: #1E2A47;
+}
+
+.dark input[type="text"] {
+    background-color: #1E2A47;
+    color: #FFFFFF;
+}
+
+/* Dark mode search button */
+.dark .search {
+    background-color: #0079FF;
+    color: #FFFFFF;
+}
+
+/* Header elements in dark mode */
+.dark .header-container {
+    background-color: #1E2A47;
+}
+
+/* Search container in dark mode */
+.dark .search-container {
+    background-color: #1E2A47;
+}
+
+
+
+
+
+
+
+
+
+
+
